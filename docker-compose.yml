@@ -5,6 +5,7 @@ services:
     environment:
       APP_ID: $API_ID
       API_HASH: $API_HASH
-      TOKEN: $TOKEN
+     BOT_TOKEN: $BOT_TOKEN
+     STRING_SESSION: $STRING_SESSION
       OWNER_ID: $OWNER_ID
       MONGO_URI: $MONGO_DB_URI
